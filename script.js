@@ -24,7 +24,8 @@
     function playRound(computerSelection){
 
         // Player input
-        let playerSelection = prompt("Rock Paper or Scissors?").toLowerCase();
+        //let playerSelection = prompt("Rock Paper or Scissors?").toLowerCase();
+        let playerSelection = 'rock'
 
         // States Player and Computers choice
         console.log("You chose: " + playerSelection);
